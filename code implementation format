@@ -1,0 +1,18 @@
+# working step of to do list
+
+We use a list to store tasks.
+Each task is saved as a dictionary
+Checks if tasks list is empty.
+If not, prints all tasks with their status (Done/Pending).
+enumerate() is used to number the tasks starting from 1
+Takes user input for a new task.
+Adds it to the tasks list with "done": False (not yet completed).
+First shows tasks.
+Asks user for the task number.
+Changes "done": False → "done": True.
+Handles errors (if user types wrong number or non-numeric input).
+Shows tasks first.
+Asks for task number to remove.
+Uses pop() to delete task from the list.
+Runs an infinite loop until user chooses Exit (5).
+Displays menu and performs the chosen action.
